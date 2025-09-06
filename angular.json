@@ -29,6 +29,11 @@
             "styles": [
               "src/styles.scss"
             ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/popper.js/dist/umd/popper.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
@@ -92,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "16c9b94a-4b90-4ab9-a12b-b166b3f6d1fd"
   }
 }
