@@ -1,0 +1,26 @@
+<mat-toolbar>
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button mat-button class="img-logo">
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFfd7EiCZ1cTA/profile-displayphoto-scale_200_200/B4DZf7PE3ZGYAY-/0/1752266724053?e=1759968000&v=beta&t=Rj4J0UWA-44SXm87TU6iqzO4fSA4Z4ggUU2ZRxGauhY">
+  </button>
+
+</mat-toolbar>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+    <mat-icon>home</mat-icon>
+    <span>Home</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>person</mat-icon>
+    <span>Perfil</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>logout</mat-icon>
+    <span>Sair</span>
+  </button>
+</mat-menu>
