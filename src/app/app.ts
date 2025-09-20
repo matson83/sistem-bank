@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { Navbar } from "./shared/components/navbar/navbar";
 import { LoginForm } from './pages/auth/login-form/login-form';
 import { LoginTemplate } from './pages/auth/login-template/login-template';
+import { CadastroCliente } from './pages/cliente/cadastro-cliente/cadastro-cliente';
 
 @Component({
   selector: 'app-root',
-  imports: [LoginForm, LoginTemplate],
+  imports: [LoginForm, LoginTemplate, CadastroCliente],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
