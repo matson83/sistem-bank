@@ -4,10 +4,11 @@ import { Navbar } from "./shared/components/navbar/navbar";
 import { LoginForm } from './pages/auth/login-form/login-form';
 import { LoginTemplate } from './pages/auth/login-template/login-template';
 import { CadastroCliente } from './pages/cliente/cadastro-cliente/cadastro-cliente';
+import { ListagemCliente } from "./pages/cliente/listagem-cliente/listagem-cliente";
 
 @Component({
   selector: 'app-root',
-  imports: [LoginForm, LoginTemplate, CadastroCliente],
+  imports: [LoginForm, LoginTemplate, CadastroCliente, ListagemCliente],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
